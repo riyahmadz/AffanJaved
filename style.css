@@ -197,7 +197,11 @@
     margin-top: 20px !important;
     overflow: hidden !important;
     margin-bottom: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .info-icon-master {
     display:flex;
@@ -239,3 +243,21 @@
 .info-text > h4,p {
     margin-bottom: 10px !important;
 }
+
+
+.moboAssets {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin:10px !important;
+    }
+    .deskAssets {
+        display: none !important;
+    }
+    .moboAssets {
+        display: block;
+    }
+  }
