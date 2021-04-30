@@ -250,6 +250,15 @@
     margin-bottom: 10px !important;
 }
 
+svg {
+    width:  auto !important;
+    height: auto !important;
+}
+
+.svgCust {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
 
 .moboAssets {
     display:none;
@@ -259,6 +268,10 @@
 
     body {
         margin:10px !important;
+    }
+
+    .home-box-two {
+        display: none !important;
     }
     .deskAssets {
         display: none !important;
