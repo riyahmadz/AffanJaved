@@ -161,7 +161,8 @@
  .box-even-anim {
     transition: all 0.3s;
     color :#537885 !important;
-    padding: 50px 100px 50px 50px;
+    padding: 100px 50px 100px 50px;
+    margin-top:20px;
     text-align: center;
  }
 
