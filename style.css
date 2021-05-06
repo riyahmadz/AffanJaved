@@ -27,6 +27,24 @@
     
 }
 
+#Capa_1 {
+    fill: #537885;
+ }
+
+.back-text:hover {
+    font-weight: 300  !important;
+}
+
+.next-cont > .back-text> a:hover {
+    font-weight: 300  !important;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff !important;
+
+    background-color: #537885 !important;
+}
+
 .logo-cont > * {
     transform: rotateZ(40deg);
 }
@@ -125,6 +143,7 @@
 
 
  .home-box {
+    filter: drop-shadow(1.5px 2px 1.9px #aaaaaa);
     transition: all 0.1s;
     margin-top: 50px !important;
     border-radius: 4px;
@@ -339,7 +358,7 @@ svg {
     }
 
     .cont-feature {
-        filter: none !important;
+        filter: drop-shadow(0px 2px 1.9px #aaaaaa) !important;
     }
   }
 

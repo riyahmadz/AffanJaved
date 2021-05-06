@@ -14,36 +14,44 @@
   </head>
   <body>
     <div class="container">
-      <header class="d-flex flex-wrap justify-content-between py-3 mb-4">
-        <a href="index.html" class="logo-cont">
-          <svg class="rotated" style="margin-right:-21px !important; " width="35" height="35"
-            xmlns="http://www.w3.org/2000/svg">
-            <image href="logo/letterA.svg" height="35" width="35" />
-          </svg>
-          <svg class="rotated" style="margin-right:-25px !important; " width="35" height="35"
-            xmlns="http://www.w3.org/2000/svg">
-            <image href="logo/letterF.svg" height="35" width="35" />
-          </svg>
-          <svg class="rotated" style="margin-right:-25px !important; " width="35" height="35"
-            xmlns="http://www.w3.org/2000/svg">
-            <image href="logo/letterF.svg" height="35" width="35" />
-          </svg>
-          <svg class="rotated" style="margin-right:-21px !important; " width="35" height="35"
-            xmlns="http://www.w3.org/2000/svg">
-            <image href="logo/letterA.svg" height="35" width="35" />
-          </svg>
-          <svg class="rotated" width="35" height="35" xmlns="http://www.w3.org/2000/svg">
-            <image href="logo/letterN.svg" height="35" width="35" />
-          </svg>
+      <header class="d-flex flex-wrap justify-content-between py-3 mb-4 ">
+     
+        <nav class="navbar">
+          <a href="index.html" class="logo-cont">
+            <svg class="rotated" style="margin-right:-20px !important; " width="35" height="35"
+              xmlns="http://www.w3.org/2000/svg">
+              <image href="logo/letterA.svg" height="35" width="35" />
+            </svg>
+            <svg class="rotated" style="margin-right:-20px !important; " width="35" height="35"
+              xmlns="http://www.w3.org/2000/svg">
+              <image href="logo/letterF.svg" height="35" width="35" />
+            </svg>
+            <svg class="rotated" style="margin-right:-20px !important; " width="35" height="35"
+              xmlns="http://www.w3.org/2000/svg">
+              <image href="logo/letterF.svg" height="35" width="35" />
+            </svg>
+            <svg class="rotated" style="margin-right:-20px !important; " width="35" height="35"
+              xmlns="http://www.w3.org/2000/svg">
+              <image href="logo/letterA.svg" height="35" width="35" />
+            </svg>
+            <svg class="rotated" width="35" height="35" xmlns="http://www.w3.org/2000/svg">
+              <image href="logo/letterN.svg" height="35" width="35" />
+            </svg>
+    
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="about.html" class="nav-link   ">About</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link  active ">Works</a>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link ">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
   
-        </a>
-  
-        <ul class="nav ">
-          <li class="nav-item"><a href="about.html" class="nav-link  text-dark ">About</a></li>
-          <li class="nav-item"><a href="index.html" class="nav-link  active text-dark">Works</a>
-          </li>
-          <li class="nav-item"><a href="contact.html" class="nav-link text-dark">Contact</a></li>
-        </ul>
       </header>
 
       <div class="back-cont">
@@ -96,7 +104,10 @@
 
       <div class="next-cont">
         <div class="back-text"><a href="presentationdecks.html">Presentation Decks</a></div>
-        <object  id="Capa_1" class="arrow-next" data="media/back-arrow.svg" width="15" height="15"> </object>
+        <a href="presentationdecks.html" style="display: block;">
+          <object  style="pointer-events: none;" id="Capa_1" class="arrow-next" data="media/back-arrow.svg" width="15" height="15">
+           </object>
+          </a>
     </div>
 
       </div>
