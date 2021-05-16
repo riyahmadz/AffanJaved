@@ -27,16 +27,14 @@
     
 }
 
-#Capa_1 {
-    fill: #537885;
- }
+
 
 .back-text:hover {
-    font-weight: 300  !important;
+    font-weight: 500  !important;
 }
 
 .next-cont > .back-text> a:hover {
-    font-weight: 300  !important;
+    font-weight: 500  !important;
 }
 
 .btn-outline-secondary:hover {
@@ -88,13 +86,28 @@
 
 .back-text > a:hover {
     transform: scale(1.1);
+    color:#2d4a55  !important;
+    font-weight: 500;
 }
 
-
+.formm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .arrow-back {
     transform: rotate(90deg);
-    margin-right: 10px;
+    margin-right: 5px;
+}
+
+.marginChar {
+    margin-right: -20px !important;
+}
+
+.arrow-back:hover {
+    fill: #283f47;
+   cursor: pointer;
 }
 
 .arrow-next {
